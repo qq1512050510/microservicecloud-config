@@ -38,7 +38,7 @@ info:
     app.name: chiang-microservicecloud-springcloudconfig02
     company.name: www.chiang.com
     build.artifactId: $project.artifactId$
-    build.version $project.version$
+    build.version: $project.version$
 ---
 server:
     port: 8001
@@ -75,4 +75,4 @@ info:
     app.name: chiang-microservicecloud-springcloudconfig02
     company.name: www.chiang.com
     build.artifactId: $project.artifactId$
-    build.version $project.version$
+    build.version: $project.version$
